@@ -3,7 +3,7 @@
 
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%boldMagenta(%d{yyyy-MM-dd HH:mm:ss}) %boldCyan([%thread]) %highlight(%-8p) %yellow(%-40C): %magenta(%-4L) :: %m %n</pattern>
+            <pattern>%boldMagenta(%d{yyyy-MM-dd HH:mm:ss}) %boldCyan([%thread]) %highlight(%-8p) %yellow(%-40C):%yellow(%-4L) :: %m %n</pattern>
         </encoder>
     </appender>
 

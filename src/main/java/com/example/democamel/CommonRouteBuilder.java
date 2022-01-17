@@ -26,7 +26,7 @@ public abstract class CommonRouteBuilder extends RouteBuilder {
     final String TRACER = String.format(TRACER_TEMPLATE, CYAN_BOLD_BRIGHT, RESET
             /*MESSAGE_ID*/, YELLOW, RESET, GREEN_BOLD, RESET
             /*NODE*/, YELLOW, RESET, WHITE_BRIGHT, RESET
-            /*ROUTE_ID*/, YELLOW, RESET, BLUE_BRIGHT, RESET
+            /*ROUTE_ID*/, YELLOW, RESET, MAGENTA_BRIGHT, RESET
             /*ENDPOINT*/, YELLOW, RESET
             /*BODY*/, YELLOW, RESET
             /*HEADERS*/, YELLOW, RESET
